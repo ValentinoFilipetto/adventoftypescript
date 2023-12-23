@@ -14,12 +14,17 @@ After cloning it, go to the project repo and run
 
 ## Navigate the challenges from here
 
-| Day   | Code                           |
-| ----- | ------------------------------ |
-| Day 1 | [Solution](src/day01/day01.ts) |
-| Day 2 | [Solution](src/day02/day02.ts) |
-| Day 3 | [Solution](src/day03/day03.ts) |
-| Day 4 | [Solution](src/day04/day04.ts) |
-| Day 5 | [Solution](src/day05/day05.ts) |
-| Day 6 | [Solution](src/day06/day06.ts) |
-| Day 7 | [Solution](src/day07/day07.ts) |
+| Day    | Code                           |
+| ------ | ------------------------------ |
+| Day 1  | [Solution](src/day01/day01.ts) |
+| Day 2  | [Solution](src/day02/day02.ts) |
+| Day 3  | [Solution](src/day03/day03.ts) |
+| Day 4  | [Solution](src/day04/day04.ts) |
+| Day 5  | [Solution](src/day05/day05.ts) |
+| Day 6  | [Solution](src/day06/day06.ts) |
+| Day 7  | [Solution](src/day07/day07.ts) |
+| Day 8  | [Solution](src/day08/day08.ts) |
+| Day 9  | [Solution](src/day09/day09.ts) |
+| Day 10 | [Solution](src/day10/day10.ts) |
+| Day 11 | [Solution](src/day11/day11.ts) |
+| Day 12 | [Solution](src/day12/day12.ts) |
