@@ -28,3 +28,6 @@ After cloning it, go to the project repo and run
 | Day 10 | [Solution](src/day10/day10.ts) |
 | Day 11 | [Solution](src/day11/day11.ts) |
 | Day 12 | [Solution](src/day12/day12.ts) |
+| Day 13 | [Solution](src/day13/day13.ts) |
+| Day 14 | [Solution](src/day14/day14.ts) |
+| Day 15 | [Solution](src/day15/day15.ts) |
