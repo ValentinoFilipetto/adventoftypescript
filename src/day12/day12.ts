@@ -2,19 +2,11 @@ import { Equal, Expect } from "../../testing-types";
 
 /* Solution */
 
-type Equals<T, U> = (<P>() => P extends T ? true : false) extends <
-  P
->() => P extends U ? true : false
-  ? true
-  : false;
-
 type TupleBefore<T extends unknown[], U> = T extends [infer F, ...infer R]
-  ? Equals<F, U> extends true
+  ? Equal<F, U> extends true
     ? []
     : [F, ...TupleBefore<R, U>]
   : [];
-
-/* Challenge */
 
 type FindSanta<T extends unknown[]> = TupleBefore<
   T,
@@ -22,6 +14,8 @@ type FindSanta<T extends unknown[]> = TupleBefore<
 >["length"] extends T["length"]
   ? never
   : TupleBefore<T, "🎅🏼">["length"];
+
+/* Challenge */
 
 type Forest0 = ["🎅🏼", "🎄", "🎄", "🎄"];
 type test_0_actual = FindSanta<Forest0>;
